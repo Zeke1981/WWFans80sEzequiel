@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 
 
 
@@ -45,6 +45,7 @@ header {
 header h1 img{
     width: 220px;
     height: 170px;
+    padding: 20px;
 }
 
 header nav ul {
@@ -65,7 +66,7 @@ header nav ul li {
     justify-content: space-around; */
     /* text-align: center; */
     margin: 15px 5px 10px 15px;
-    display: flex;
+    /* display: flex; */
     
 
 }
@@ -134,7 +135,7 @@ header nav ul li a:hover{
     color: rgb(245, 0, 0);
 } */
 
-.hero a {
+/* .hero a {
     text-decoration: none;
     color: gold;
     background-color: black;
@@ -153,7 +154,7 @@ header nav ul li a:hover{
     max-height: max-content;
     
     
-}
+} */
 
 .noticias {
     background-color: black;
@@ -349,7 +350,7 @@ footer p {
 
 /*!-----HISTORIA-----*/
 
-.historia {
+main .historia {
 
     width: 100%;
     height: 100%;
@@ -362,13 +363,13 @@ footer p {
     border-right: none;
 }
 
-.historia h1 {
+main .historia .titulo-historia {
     font-size: 40px;
     text-align: center;
     padding: 20px;
 }
 
-.historia-comienzo h2{
+main .historia .historia-comienzo h3{
     font-size: 30px;
     margin-block-start: 25px;
     padding-bottom: 25px;
@@ -376,12 +377,28 @@ footer p {
 
 }
 
-.historia-comienzo p{
+main .historia-comienzo p{
     font-size: 25px;
 }
 
+@media screen and (max-width:830px){
+    main .historia .titulo-historia{
+        font-size: 35px;
+    }
+    main .historia .historia-comienzo h3{
+        font-size: 25px;
+    }
+    main .historia .historia-comienzo p{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+    
+
+
 
 /*!-----Luchadores-----*/
+
 .luchadores{
     width: 100%;
     height: 75%;
@@ -399,10 +416,68 @@ footer p {
     margin: 50px;
 }
 
-.luchadores div {
+.luchadores .primer-luchador{
     padding: 50px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+.luchadores .segundo-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.luchadores .tercer-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.luchadores .cuarto-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.luchadores .quinto-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.luchadores .sexto-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.luchadores .septimo-luchador{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 .luchadores h3 {
     font-size: 40px;
@@ -683,9 +758,7 @@ footer p {
 
 
 
-.productos div a:hover{
-    color: gold;
-}
+
 
 
 
@@ -695,7 +768,7 @@ footer p {
 
 /*!-----LUCHADORES-----*/
 
-.luchadores{
+/* .luchadores{
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -723,14 +796,12 @@ footer p {
     
     
 }
-/* .luchadores div image {
-size: 200px;
-} */
+
 .luchadores div p{
     font-size: 30px;
     padding: 5px;
     text-align: justify;
-}
+} */
 
 /*!-----MERCHANDISING-----*/
 
@@ -756,14 +827,14 @@ size: 200px;
     text-align: center;
     color: gold;
     background-color: black;
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px;
 }
 
 .productos .productos-contenedor div {
     width:300px ;
-    height: 350px;
-    border: 2px solid black;
+    height: 375px;
+    border: 2px solid fuchsia;
     text-align: center;
     margin: 10px;
 
@@ -775,7 +846,9 @@ size: 200px;
 }
 
 .productos div h3{
-    margin: 5px;
+    margin: 15px;
+    font-size: 20px;
+    /* margin: 20px; */
 }
 
 .productos div a {
@@ -786,6 +859,89 @@ size: 200px;
     padding: 5px;
     margin: 5px;
 }
+
+.productos div a:hover{
+    color: gold;
+}
+
+.gym {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+}
+
+.gym h2{
+    font-size: 35px;
+    text-align: center;
+    color: gold;
+    background-color: black;
+    padding: 10px;
+}
+
+.gym .gym-contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gym .gym-contenedor div{
+    width:300px ;
+    height: 375px;
+    border: 2px solid fuchsia;
+    text-align: center;
+    margin: 10px;
+}
+
+.gym div img {
+    width: 280px;
+    height: 250px;
+}
+
+.gym div h3{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.gym div a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.gym div a:hover{
+    color: gold;
+}
+
+@media screen and (max-width:670px){
+        .productos .productos-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+        .gym .gym-contenedor div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+    }
+        .gym div a{
+            margin: auto;
+            
+        }
+
+}
+
+
+
 
 
 @media screen and (max-width:950px){
@@ -1041,7 +1197,7 @@ size: 200px;
 
     footer{
         width:100% ;
-        height: ;
+        
     }
 
 }
@@ -1152,10 +1308,9 @@ size: 200px;
     }
 
     header nav ul{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding-right: 80px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     header nav ul li{
         margin: 0;
