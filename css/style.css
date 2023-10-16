@@ -350,12 +350,11 @@ footer p {
 
 /*!-----HISTORIA-----*/
 
-main .historia {
+.historia {
 
     width: 100%;
     height: 100%;
     padding: 15px;
-    /* flex-wrap: wrap; */
     color: gold;
     background-color: black;
     border: 2px solid gold;
@@ -363,13 +362,13 @@ main .historia {
     border-right: none;
 }
 
-main .historia .titulo-historia {
+.historia .titulo-historia {
     font-size: 40px;
     text-align: center;
     padding: 20px;
 }
 
-main .historia .historia-comienzo h3{
+.historia .historia-comienzo h3{
     font-size: 30px;
     margin-block-start: 25px;
     padding-bottom: 25px;
@@ -377,18 +376,18 @@ main .historia .historia-comienzo h3{
 
 }
 
-main .historia-comienzo p{
+.historia-comienzo p{
     font-size: 25px;
 }
 
 @media screen and (max-width:830px){
-    main .historia .titulo-historia{
+    .historia .titulo-historia{
         font-size: 35px;
     }
-    main .historia .historia-comienzo h3{
+    .historia .historia-comienzo h3{
         font-size: 25px;
     }
-    main .historia .historia-comienzo p{
+    .historia .historia-comienzo p{
         font-size: 20px;
         text-align: justify;
     }
