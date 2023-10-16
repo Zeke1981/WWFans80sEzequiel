@@ -119,38 +119,6 @@ header {
       padding: 15px;
       text-align: justify; }
 
-header {
-  width: 100%;
-  height: 25vh;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  z-index: 1; }
-  header h1 .loguito {
-    width: 220px;
-    height: 170px;
-    padding: 20px; }
-  header nav ul {
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    display: flex; }
-    header nav ul li {
-      margin: 15px 5px 10px 15px; }
-      header nav ul li a {
-        text-decoration: none;
-        color: goldenrod; }
-        header nav ul li a:hover {
-          color: blueviolet; }
-
-.carousel-inner img {
-  width: 100%;
-  max-height: 330px; }
-
 .historia {
   width: 100%;
   height: 100%;
@@ -171,30 +139,145 @@ header {
   .historia .historia-comienzo p {
     font-size: 25px; }
 
-footer {
+.luchadores {
   width: 100%;
-  height: 200px;
+  height: 75%;
+  padding: 10px;
+  color: gold;
   background-color: black;
   border: 2px solid gold;
   border-left: none;
   border-right: none; }
-  footer h1 .logo-pie {
-    width: 220px;
-    height: 170px;
-    padding: 20px; }
-  footer .footer-contenedor {
-    background-color: black;
+  .luchadores h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px; }
+  .luchadores h3 {
+    font-size: 40px;
+    text-align: center; }
+  .luchadores .primer-luchador {
+    padding: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
-    footer .footer-contenedor a {
-      font-size: 40px;
-      margin: 10px; }
-  footer p {
-    color: fuchsia;
-    background-color: yellow;
-    font-size: 30px;
-    text-align: center; }
+    .luchadores .primer-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .segundo-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .segundo-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .tercer-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .tercer-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .cuarto-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .cuarto-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .quinto-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .quinto-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .sexto-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .sexto-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+  .luchadores .septimo-luchador {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .luchadores .septimo-luchador p {
+      font-size: 30px;
+      padding: 5px;
+      text-align: justify; }
+
+.videos-contenedor {
+  width: 100%;
+  height: 60%;
+  color: gold;
+  background-color: black;
+  border: 2px solid gold;
+  border-left: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
+  .videos-contenedor h2 {
+    font-size: 35px;
+    padding: 15px; }
+
+.canciones-contenedor h3 {
+  background-color: black;
+  color: gold;
+  margin: 0;
+  font-size: 35px;
+  text-align: center; }
+
+.canciones-contenedor .conjunto-canciones {
+  background-color: black;
+  display: flex;
+  flex-direction: column; }
+  .canciones-contenedor .conjunto-canciones .canciones-uno {
+    display: flex; }
+  .canciones-contenedor .conjunto-canciones .canciones-dos {
+    display: flex; }
+
+.grid-galeria {
+  width: 100%;
+  padding-top: 50px;
+  color: gold;
+  background-color: black;
+  border: 2px solid gold;
+  border-left: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 350px;
+  gap: 15px; }
+  .grid-galeria img {
+    width: 100%;
+    height: 100%; }
+  .grid-galeria .img5 {
+    grid-column: span 2;
+    grid-row: span 2; }
+  .grid-galeria .img13 {
+    grid-row: span 2; }
 
 footer {
   width: 100%;
@@ -220,3 +303,12 @@ footer {
     background-color: yellow;
     font-size: 30px;
     text-align: center; }
+
+@media screen and (max-width: 830px) {
+  .historia .titulo-historia {
+    font-size: 35px; }
+  .historia .historia-comienzo h3 {
+    font-size: 25px; }
+  .historia .historia-comienzo p {
+    font-size: 20px;
+    text-align: justify; } }

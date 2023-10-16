@@ -486,7 +486,45 @@ footer p {
 }
 
 
-.luchadores div p{
+.luchadores .primer-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+.luchadores .segundo-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.luchadores .tercer-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.luchadores .cuarto-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.luchadores .quinto-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.luchadores .sexto-luchador p{
+    font-size: 30px;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+.luchadores .septimo-luchador p{
     font-size: 30px;
     padding: 5px;
     text-align: justify;

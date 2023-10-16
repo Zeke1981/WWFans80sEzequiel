@@ -1,0 +1,317 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    color: gold;
+    text-align: center;
+    background-image: url(../img/ringwwf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+        h2{
+        font-size: 60px;
+        text-align: center;
+        }
+        p{
+            font-size: 40px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: rgb(255, 217, 0);
+        }
+    }
+
+.noticias{
+        background-color: black;
+        color: gold;
+        font-size: medium;
+        .subtitulo1{
+                text-align: center;
+                font-size: 50px;
+                margin-bottom: 50px;
+                padding: 20px;  
+        }
+        .container-a{
+                padding: 15px;
+                display: flex;
+                flex-direction: row-reverse;
+            div{
+                img{
+                    width: 350px;
+                    height: 350px;
+                    margin-top: 100px;
+                }
+            }
+            div{
+                h3{
+                    font-size: 30px;
+                    padding: 20px;
+                    text-align: justify;
+                }
+                p{
+                    font-size: 20px;
+                    padding: 15px;
+                    text-align: justify;
+                }
+            }
+
+        }
+        .container-b{
+                padding: 15px;
+                display: flex;
+                flex-direction: row-reverse;
+            div{
+                img{
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+            div{
+                h3{
+                    font-size: 30px;
+                    padding: 20px;
+                    text-align: justify;
+                }
+                p{
+                    font-size: 20px;
+                    padding: 15px;
+                    text-align: justify;                    
+                }
+            }
+
+        }
+        .container-c{
+            padding: 15px;
+            display: flex;
+            flex-direction: row-reverse;
+            div{
+                img{
+                    width: 350px;
+                    height: 350px;
+                    padding: 10px;
+                }
+            }
+            div{
+                h3{
+                    font-size: 30px;
+                    padding: 20px;
+                    text-align: justify;
+                }
+                p{
+                    font-size: 20px;
+                    padding: 15px;
+                    text-align: justify;                   
+                }
+            }
+
+        }
+
+}
+//*----historia----*//
+.historia{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+    .titulo-historia{
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .historia-comienzo{
+        h3{
+            font-size: 30px;
+            margin-block-start: 25px;
+            padding-bottom: 25px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+}
+
+//*----luchadores----*//
+.luchadores{
+            width: 100%;
+            height: 75%;
+            padding: 10px;
+            color: gold;
+            background-color: black;
+            border: 2px solid gold;
+            border-left: none;
+            border-right: none;
+    h2{
+        font-size: 40px;
+        text-align: center;
+        margin: 50px;
+    }
+    h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .primer-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+        }
+
+    }
+    .segundo-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+        }
+    }
+    .tercer-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+        }
+    }
+    .cuarto-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+        }
+    }
+    .quinto-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+        }
+    }
+    .sexto-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;     
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+
+        }
+    }
+    .septimo-luchador{
+                    padding: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center; 
+        p{
+            font-size: 30px;
+            padding: 5px;
+            text-align: justify;
+
+        }
+    }
+
+}
+
+//*----multimedia----*//
+.videos-contenedor{
+    width: 100%;
+    height: 60%;
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 35px;
+        padding: 15px;
+    }
+}
+
+.canciones-contenedor{
+    h3{
+        background-color: black;
+        color: gold;
+        margin: 0;
+        font-size: 35px;
+        text-align: center;
+    }
+    .conjunto-canciones{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        .canciones-uno{
+                        display: flex;
+        }
+        .canciones-dos{
+                        display: flex;
+
+        }
+
+    }
+
+
+}
+
+.grid-galeria{
+    img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .img5{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .img13{
+        grid-row: span 2;
+    }
+    width: 100%;
+    padding-top: 50px;
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows: 350px;
+    gap: 15px;
+}
