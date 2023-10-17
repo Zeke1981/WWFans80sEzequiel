@@ -23,9 +23,11 @@ footer{
         }
     }
     p{
-        color: fuchsia;
-        background-color: yellow;
+        color: yellow;
+        background-color: black;
         font-size: 30px;
         text-align: center;
+        text-shadow: 0 0 30px #fff;
+        box-shadow: 0 0 20px rgb(255, 252, 68);
     }
 }

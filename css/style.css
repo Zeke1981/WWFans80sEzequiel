@@ -95,6 +95,7 @@ header nav ul li a:hover{
 .carousel-inner img {
     width: 100%;
     max-height: 330px;
+    /* height: 35vh; */
 }
 
 /* .carousel-inner{
@@ -107,7 +108,7 @@ header nav ul li a:hover{
     height: 100%;
     color: gold;
     text-align: center;
-    background-image: url(../img/ringwwf.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.388), rgba(0, 0, 0, 0.47)), url(../img/ringwwf.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -337,13 +338,39 @@ footer .footer-contenedor{
     
 }
 
-
 footer p {
-    color: fuchsia;
-    background-color: yellow;
+    color: yellow;
+    background-color: black;
     font-size: 30px;
     text-align: center;
+    text-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 20px rgb(255, 252, 68);
 }
+
+/* footer p 
+    color: yellow;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 20px rgb(255, 252, 68);
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    /* animation-direction: ;
+    animation-delay: ; */ 
+
+
+/* @keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0;
+        width: 100%;
+    }
+} */
 
 
 
@@ -407,6 +434,7 @@ footer p {
     border: 2px solid gold;
     border-left: none;
     border-right: none;
+
 }
 
 .luchadores h2 {
@@ -414,6 +442,18 @@ footer p {
     text-align: center;
     margin: 50px;
 }
+
+/* .luchadores h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    background: rgb(149,1,131);
+    background: radial-gradient(circle, rgba(149,1,131,1) 19%, rgba(247,0,186,1) 40%, rgba(36,0,27,1) 92%);
+
+
+} */
+
+
 
 .luchadores .primer-luchador{
     padding: 50px;
@@ -474,16 +514,30 @@ footer p {
 }
 
 
+.luchadores h3{
+    margin: 0 auto;
+    width: 300px;
+    max-height: 300px;
+    background-color: fuchsia;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    transition-duration: 4s;
 
 
+}
 
+.luchadores h3:hover{
+    width: 400px;
+}
 
-.luchadores h3 {
+/* .luchadores h3 {
     font-size: 40px;
     text-align: center;
     
     
-}
+} */
 
 
 .luchadores .primer-luchador p{
@@ -556,6 +610,7 @@ footer p {
 .videos-contenedor h2{
     font-size: 35px;
     padding: 15px;
+
 }
 
 .canciones-contenedor h3{
@@ -863,7 +918,7 @@ footer p {
 .productos h2 {
     text-align: center;
     color: gold;
-    background-color: black;
+    /* background-color: black; */
     font-size: 35px;
     padding: 10px;
 }
@@ -874,7 +929,11 @@ footer p {
     border: 2px solid fuchsia;
     text-align: center;
     margin: 10px;
+    transition: 2s;
 
+}
+.productos .productos-contenedor div:hover{
+    transform: scale(1.1);
 }
 
 .productos div img {
@@ -916,7 +975,6 @@ footer p {
     font-size: 35px;
     text-align: center;
     color: gold;
-    background-color: black;
     padding: 10px;
 }
 
@@ -924,6 +982,7 @@ footer p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .gym .gym-contenedor div{
@@ -932,6 +991,10 @@ footer p {
     border: 2px solid fuchsia;
     text-align: center;
     margin: 10px;
+    transition: 2s;
+}
+.gym .gym-contenedor div:hover{
+    transform: scale(1.1);
 }
 
 .gym div img {

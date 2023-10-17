@@ -1,3 +1,55 @@
+//*mediaquerys-header*//
+@media screen and (max-width:800px){
+    header {
+        height: 100%;
+        flex-direction: column;
+        position: static;
+    }
+    .donate div img {
+        display: none;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+//*mediaquerys-multimedia*//
+@media screen and (max-width:1120px){
+    .conjunto-canciones{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        .canciones-uno{
+            display: flex;
+            flex-direction: column;
+        }
+        .canciones-dos{
+            display: flex;
+            flex-direction: column
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1120px){
+    .videos-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+        
+    }
+}
+
+
 @media screen and (max-width:830px){
         .historia{
                 .titulo-historia{
@@ -15,3 +67,99 @@
         }
     }
 }   
+
+@media screen and (max-width:590px){
+    .videos-contenedor{
+        .videos-uno{
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+            .video-golden{
+                width: 380px;
+                height: 230px;
+            }
+
+        }
+        .videos-dos{
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+            .evento-principal{
+                width: 380px;
+                height: 230px;
+            }
+        }
+        .videos-tres{
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+            .hija{
+                width: 380px;
+                height: 230px;
+            }
+        }
+        .videos-cuatro{
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+            .historiauw{
+                width: 420px;
+                height: 250px;
+                padding-left: 35px;
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width:425px){
+    .videos-contenedor{
+        .videos-uno{
+            h2{
+                text-align: center;
+                font-size: 25px;
+            }
+            .video-golden{
+                width: 300px;
+                height: 180px;
+            }
+
+        }
+        .videos-dos{
+            h2{
+                text-align: center;
+                font-size: 25px;
+            }
+            .evento-principal{
+                width: 300px;
+                height: 180px;
+            }
+        }
+        .videos-tres{
+            h2{
+                text-align: center;
+                font-size: 25px;
+            }
+            .hija{
+                width: 300px;
+                height: 180px;
+            }
+        }
+        .videos-cuatro{
+            h2{
+                text-align: center;
+                font-size: 25px;
+            }
+            .historiauw{
+                width: 350px;
+                height: 200px;
+                
+                
+            }
+        }
+    }
+}
