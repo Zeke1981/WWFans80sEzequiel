@@ -12,6 +12,111 @@ body {
   width: 100%;
   max-height: 330px; }
 
+.HHogan1 {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-one {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-one {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.savage1 {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-two {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-two {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.warrior1 {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-three {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-three {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.giant1 {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-four {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-four {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.rpipper1 {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-five {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-five {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.jdog {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-six {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-six {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
+.perfect {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.botoncito-seven {
+  background-color: fuchsia;
+  padding: 25px;
+  border-radius: 2px;
+  border-color: gold; }
+
+.accordion-item-seven {
+  background-color: black;
+  color: gold;
+  font-size: 25px; }
+
 header {
   width: 100%;
   height: 25vh;
@@ -144,142 +249,34 @@ header {
     text-align: center;
     padding: 20px; }
   .historia .historia-comienzo h3 {
-    font-size: 30px;
-    margin-block-start: 25px;
-    padding-bottom: 25px; }
+    margin: 0 auto;
+    width: 350px;
+    max-height: 300px;
+    color: fuchsia;
+    font-size: 25px;
+    background-color: gold;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    transition-duration: 3s; }
+    .historia .historia-comienzo h3:hover {
+      width: 450px; }
   .historia .historia-comienzo p {
     font-size: 25px; }
 
 .luchadores {
   width: 100%;
-  height: 75%;
+  height: 100%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: gold;
   background-color: black;
   border: 2px solid gold;
   border-left: none;
   border-right: none; }
-  .luchadores h2 {
-    font-size: 40px;
-    text-align: center;
-    margin: 50px; }
-  .luchadores h3 {
-    margin: 0 auto;
-    width: 300px;
-    max-height: 300px;
-    background-color: fuchsia;
-    border-radius: 8px;
-    text-align: center;
-    padding: 8px;
-    margin-bottom: 8px;
-    transition-duration: 4s; }
-    .luchadores h3:hover {
-      width: 400px; }
-  .luchadores .primer-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .primer-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .primer-luchador img {
-      border: 2px solid fuchsia;
-      transition: 2s; }
-      .luchadores .primer-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .segundo-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .segundo-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .segundo-luchador img {
-      border: 2px solid fuchsia;
-      transition: 2s; }
-      .luchadores .segundo-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .tercer-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .tercer-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .tercer-luchador img {
-      border: 2px solid fuchsia; }
-      .luchadores .tercer-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .cuarto-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .cuarto-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .cuarto-luchador img {
-      border: 2px solid fuchsia;
-      transition: 2s; }
-      .luchadores .cuarto-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .quinto-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .quinto-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .quinto-luchador img {
-      border: 2px solid fuchsia;
-      transition: 2s; }
-      .luchadores .quinto-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .sexto-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .luchadores .sexto-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .sexto-luchador img {
-      border: 2px solid fuchsia;
-      transition: 2s; }
-      .luchadores .sexto-luchador img:hover {
-        transform: scale(1.1); }
-  .luchadores .septimo-luchador {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    transition: 2s; }
-    .luchadores .septimo-luchador p {
-      font-size: 30px;
-      padding: 5px;
-      text-align: justify; }
-    .luchadores .septimo-luchador img {
-      border: 3px solid fuchsia;
-      transition: 2s; }
-      .luchadores .septimo-luchador img:hover {
-        transform: scale(1.1); }
 
 .videos-contenedor {
   width: 100%;

@@ -138,9 +138,23 @@
     }
     .historia-comienzo{
         h3{
-            font-size: 30px;
-            margin-block-start: 25px;
-            padding-bottom: 25px;
+        margin: 0 auto;
+        width: 350px;
+        max-height: 300px;
+        color: fuchsia;
+        font-size: 25px;
+        background-color: gold;
+        border-radius: 8px;
+        text-align: center;
+        padding: 8px;
+        margin-bottom: 8px;
+        transition-duration: 3s;
+        &:hover{
+            width: 450px;
+        }
+            // font-size: 30px;
+            // margin-block-start: 25px;
+            // padding-bottom: 25px;
         }
         p{
             font-size: 25px;
@@ -149,173 +163,189 @@
 }
 
 //*----luchadores----*//
+
 .luchadores{
-            width: 100%;
-            height: 75%;
-            padding: 10px;
-            color: gold;
-            background-color: black;
-            border: 2px solid gold;
-            border-left: none;
-            border-right: none;
-    h2{
-        font-size: 40px;
-        text-align: center;
-        margin: 50px;
-    }
-    h3{
-        margin: 0 auto;
-        width: 300px;
-        max-height: 300px;
-        background-color: fuchsia;
-        border-radius: 8px;
-        text-align: center;
-        padding: 8px;
-        margin-bottom: 8px;
-        transition-duration: 4s;
-        &:hover{
-            width: 400px;
-        }
-    }
-    .primer-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-
-        }
-
-    }
-    .segundo-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    .tercer-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    .cuarto-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    .quinto-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    .sexto-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;     
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 2px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    .septimo-luchador{
-                    padding: 50px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    transition: 2s;
-        p{
-            font-size: 30px;
-            padding: 5px;
-            text-align: justify;
-        }
-        img{
-            border: 3px solid fuchsia;
-            transition: 2s;
-            &:hover{
-                transform: scale(1.1);
-            }
-            
-        }
-    }
-
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    border-left: none;
+    border-right: none;
 }
+
+
+// .luchadores{
+//             width: 100%;
+//             height: 75%;
+//             padding: 10px;
+//             color: gold;
+//             background-color: black;
+//             border: 2px solid gold;
+//             border-left: none;
+//             border-right: none;
+//     h2{
+//         font-size: 40px;
+//         text-align: center;
+//         margin: 50px;
+//     }
+//     h3{
+//         margin: 0 auto;
+//         width: 300px;
+//         max-height: 300px;
+//         background-color: fuchsia;
+//         border-radius: 8px;
+//         text-align: center;
+//         padding: 8px;
+//         margin-bottom: 8px;
+//         transition-duration: 4s;
+//         &:hover{
+//             width: 400px;
+//         }
+//     }
+//     .primer-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+
+//         }
+
+//     }
+//     .segundo-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//         }
+//     }
+//     .tercer-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//         }
+//     }
+//     .cuarto-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//         }
+//     }
+//     .quinto-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//         }
+//     }
+//     .sexto-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;     
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 2px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//         }
+//     }
+//     .septimo-luchador{
+//                     padding: 50px;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     justify-content: center;
+//                     align-items: center;
+//                     transition: 2s;
+//         p{
+//             font-size: 30px;
+//             padding: 5px;
+//             text-align: justify;
+//         }
+//         img{
+//             border: 3px solid fuchsia;
+//             transition: 2s;
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+            
+//         }
+//     }
+
+// }
 
 //*----multimedia----*//
 .videos-contenedor{
