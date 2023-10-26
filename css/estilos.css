@@ -14,7 +14,9 @@ body {
 
 .HHogan1 {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 480px;
+  height: 600px; }
 
 .botoncito-one {
   background-color: fuchsia;
@@ -25,11 +27,15 @@ body {
 .accordion-item-one {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 3px; }
 
 .savage1 {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 500px;
+  height: 550px; }
 
 .botoncito-two {
   background-color: fuchsia;
@@ -40,11 +46,15 @@ body {
 .accordion-item-two {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
 
 .warrior1 {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 600px;
+  height: 500px; }
 
 .botoncito-three {
   background-color: fuchsia;
@@ -55,11 +65,15 @@ body {
 .accordion-item-three {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
 
 .giant1 {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 550px;
+  height: 500px; }
 
 .botoncito-four {
   background-color: fuchsia;
@@ -70,11 +84,15 @@ body {
 .accordion-item-four {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
 
 .rpipper1 {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 580px;
+  height: 500px; }
 
 .botoncito-five {
   background-color: fuchsia;
@@ -85,11 +103,15 @@ body {
 .accordion-item-five {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
 
 .jdog {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 500px;
+  height: 450px; }
 
 .botoncito-six {
   background-color: fuchsia;
@@ -100,11 +122,15 @@ body {
 .accordion-item-six {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
 
 .perfect {
   margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 550px;
+  height: 500px; }
 
 .botoncito-seven {
   background-color: fuchsia;
@@ -115,7 +141,157 @@ body {
 .accordion-item-seven {
   background-color: black;
   color: gold;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: justify;
+  padding: 5px; }
+
+@media screen and (max-width: 800px) {
+  .luchadores h2 {
+    font-size: 23px; }
+  .HHogan1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 336px;
+    height: 420px; }
+  .botoncito-one {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-hulk {
+    font-size: 20px; }
+  .savage1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 350px;
+    height: 385px; }
+  .botoncito-two {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-randy {
+    font-size: 20px; }
+  .warrior1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 420px;
+    height: 350px; }
+  .botoncito-three {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-warrior {
+    font-size: 20px; }
+  .giant1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 385px;
+    height: 350px; }
+  .botoncito-four {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-gigante {
+    font-size: 20px; }
+  .rpipper1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 406px;
+    height: 350px; }
+  .botoncito-five {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-pipper {
+    font-size: 20px; }
+  .jdog {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 350px;
+    height: 315px; }
+  .botoncito-six {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-junkiard {
+    font-size: 20px; }
+  .perfect {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    width: 385px;
+    height: 350px; }
+  .botoncito-seven {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px; }
+  .texto-perfect {
+    font-size: 20px; } }
+
+@media screen and (max-width: 550px) {
+  .luchadores h2 {
+    font-size: 18px; }
+  .HHogan1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 238px;
+    height: 300px; }
+  .texto-hulk {
+    font-size: 16px; }
+  .savage1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 280px; }
+  .texto-randy {
+    font-size: 16px; }
+  .warrior1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 305px;
+    height: 340px; }
+  .texto-warrior {
+    font-size: 16px; }
+  .giant1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 352px; }
+  .texto-gigante {
+    font-size: 16px; }
+  .rpipper1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 418px; }
+  .texto-pipper {
+    font-size: 16px; }
+  .jdog {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 337px; }
+  .texto-junkiard {
+    font-size: 16px; }
+  .perfect {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 337px; }
+  .texto-perfect {
+    font-size: 16px; } }
 
 header {
   width: 100%;
@@ -244,11 +420,11 @@ header {
   border: 2px solid gold;
   border-left: none;
   border-right: none; }
-  .historia .titulo-historia {
+  .historia h2 {
     font-size: 40px;
     text-align: center;
     padding: 20px; }
-  .historia .historia-comienzo h3 {
+  .historia .historia-comienzo .subtih {
     margin: 0 auto;
     width: 350px;
     max-height: 300px;
@@ -260,10 +436,11 @@ header {
     padding: 8px;
     margin-bottom: 8px;
     transition-duration: 3s; }
-    .historia .historia-comienzo h3:hover {
+    .historia .historia-comienzo .subtih:hover {
       width: 450px; }
-  .historia .historia-comienzo p {
-    font-size: 25px; }
+  .historia .historia-comienzo .parrafo-historia {
+    font-size: 24px;
+    text-align: justify; }
 
 .luchadores {
   width: 100%;
@@ -692,6 +869,30 @@ footer {
     footer p {
       font-size: 20px; } }
 
+@media screen and (max-width: 640px) {
+  .historia .subti {
+    font-size: 30px; }
+  .historia .historia-comienzo .subtih {
+    font-size: 20px;
+    width: 200px; }
+    .historia .historia-comienzo .subtih:hover {
+      width: 250px; }
+  .historia .historia-comienzo .parrafo-historia {
+    font-size: 19px;
+    text-align: justify; } }
+
+@media screen and (max-width: 470px) {
+  .historia h2 {
+    font-size: 25px; }
+  .historia .historia-comienzo .subtih {
+    font-size: 17px;
+    width: 180px; }
+    .historia .historia-comienzo .subtih:hover {
+      width: 200px; }
+  .historia .historia-comienzo .parrafo-historia {
+    font-size: 17px;
+    text-align: justify; } }
+
 @media screen and (max-width: 1120px) {
   .conjunto-canciones {
     display: flex;
@@ -743,8 +944,53 @@ footer {
     font-size: 30px; }
   .videos-contenedor .videos-cuatro .historiauw {
     width: 420px;
-    height: 250px;
-    padding-left: 35px; } }
+    height: 350px;
+    padding-left: 35px;
+    margin-bottom: auto; } }
+
+@media screen and (max-width: 440px) {
+  .videos-contenedor .videos-uno h2 {
+    text-align: center;
+    font-size: 24px; }
+  .videos-contenedor .videos-uno .video-golden {
+    width: 300px;
+    height: 180px; }
+  .videos-contenedor .videos-dos h2 {
+    text-align: center;
+    font-size: 24px; }
+  .videos-contenedor .videos-dos .evento-principal {
+    width: 300px;
+    height: 180px; }
+  .videos-contenedor .videos-tres h2 {
+    text-align: center;
+    font-size: 24px; }
+  .videos-contenedor .videos-tres .hija {
+    width: 300px;
+    height: 180px; }
+  .videos-contenedor .videos-cuatro h2 {
+    text-align: center;
+    font-size: 24px; }
+  .videos-contenedor .videos-cuatro .historiauw {
+    width: 380px;
+    height: 200px;
+    padding-left: 20px; } }
+
+@media screen and (max-width: 1120px) {
+  .canciones-contenedor h3 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center; }
+  .canciones-contenedor .conjunto-canciones {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; }
+    .canciones-contenedor .conjunto-canciones .canciones-uno {
+      display: flex;
+      flex-direction: column; }
+    .canciones-contenedor .conjunto-canciones .canciones-dos {
+      display: flex;
+      flex-direction: column; } }
 
 @media screen and (max-width: 425px) {
   .videos-contenedor .videos-uno h2 {
@@ -771,3 +1017,90 @@ footer {
   .videos-contenedor .videos-cuatro .historiauw {
     width: 350px;
     height: 200px; } }
+
+@media screen and (max-width: 780px) {
+  .grid-galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 320px; }
+    .grid-galeria .img5 {
+      grid-row: span 1;
+      grid-column: span 1; }
+    .grid-galeria .img13 {
+      grid-row: span 1; }
+    .grid-galeria .img14 {
+      grid-row: span 2;
+      grid-column: span 2; }
+    .grid-galeria .img16 {
+      display: none; } }
+
+@media screen and (max-width: 640px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr); }
+    .grid-galeria .img14 {
+      grid-row: span 1;
+      grid-column: span 1; }
+    .grid-galeria .img16 {
+      display: contents; } }
+
+@media screen and (max-width: 500px) {
+  .grid-galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 250px; } }
+
+@media screen and (max-width: 670px) {
+  .productos h2 {
+    font-size: 30px; }
+  .productos .productos-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .productos .productos-contenedor div {
+      width: 210px;
+      height: 262px;
+      text-align: center;
+      margin: 10px;
+      transition: 2s; }
+      .productos .productos-contenedor div:hover {
+        transform: scale(1.1); }
+      .productos .productos-contenedor div img {
+        width: 100%;
+        height: 150px; }
+      .productos .productos-contenedor div h3 {
+        margin: 10px;
+        font-size: 16px; }
+      .productos .productos-contenedor div a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px; }
+        .productos .productos-contenedor div a:hover {
+          color: fuchsia; } }
+
+@media screen and (max-width: 670px) {
+  .gym h2 {
+    font-size: 30px; }
+  .gym .gym-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .gym .gym-contenedor div {
+      width: 210px;
+      height: 262px;
+      text-align: center;
+      margin: 10px;
+      transition: 2s; }
+      .gym .gym-contenedor div:hover {
+        transform: scale(1.1); }
+      .gym .gym-contenedor div img {
+        width: 100%;
+        height: 150px; }
+      .gym .gym-contenedor div h3 {
+        margin: 10px;
+        font-size: 16px; }
+      .gym .gym-contenedor div a {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px; }
+        .gym .gym-contenedor div a:hover {
+          color: fuchsia; } }
