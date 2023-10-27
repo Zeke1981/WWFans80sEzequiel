@@ -1,17 +1,6 @@
-//*mediaquerys-inicio*//
 
 
-
-@media screen and (max-width:880px){
-        .hero{
-            p{
-                font-size: 40px;
-                height: 25%;
-                text-align: justify;
-                margin: 20px;
-            }
-        }
-}
+//*mediaquerys-header*//
 
 @media screen and (max-width:867px){
     header {
@@ -24,13 +13,72 @@
     }
 }
 
+
 @media screen and (max-width:800px){
-    header{
+    header {
         height: 100%;
-        // flex-direction: column;
-        // position: static;
+        flex-direction: column;
+        position: static;
     }
+
 }
+
+@media screen and (max-width:600px){
+    header{
+        h1 .loguito{
+            width: 200px;
+            height: 150px;
+            margin-left: 20px;
+        }
+        nav{
+            ul{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: -2px;
+                padding-right: 40px;
+                font-size: 12px;
+                li{
+                    margin: 0;
+                    font-size: 15px;
+                    a{
+                        margin: 2px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+    
+@media screen and (max-width:480px){
+        header{
+            h1 .loguito{
+                width: 170px;
+                height: 120px;
+                margin-left: 17px;
+                margin-bottom: auto;
+            }
+            nav{
+                ul{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: -2px;
+                    padding-right: 40px;
+                    font-size: 12px;
+                    li{
+                        margin: 0;
+                        a{
+                            margin: 6px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
 
 @media screen and (max-width:800px){
     .donate{
@@ -38,6 +86,19 @@
             img{
                 display: none;
             }
+        }
+    }
+}
+//*mediaquerys-inicio*//
+
+
+@media screen and (max-width:880px){
+    .hero{
+        p{
+            font-size: 40px;
+            height: 25%;
+            text-align: justify;
+            margin: 20px;
         }
     }
 }
@@ -55,24 +116,6 @@
             margin: 20px; 
         }
         
-    }
-}
-
-@media screen and (max-width:800px){
-    header {
-        height: 100%;
-        flex-direction: column;
-        position: static;
-    }
-
-}
-@media screen and (max-width:800px){
-    .donate{
-        div{
-            img{
-                display: none;
-            }
-        }
     }
 }
 
@@ -101,34 +144,22 @@
     }  
 }
 
-@media screen and (max-width:600px){
-header{
-    h1 .loguito{
-        width: 200px;
-        height: 150px;
-        margin-left: 20px;
-    }
-    nav{
-        ul{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: -2px;
-            padding-right: 40px;
-            font-size: 12px;
-            li{
-                margin: 0;
-                font-size: 15px;
-                a{
-                    margin: 2px;
-                }
-            }
+@media screen and (max-width:435px){
+    .hero{
+        width: fit-content;
+        height: fit-content;
+        h2{
+            font-size: 40px;
+        }
+
+        p{
+        font-size: 20px;
+        margin: auto;
         }
     }
-
 }
 
-}
+
 
 @media screen and (max-width:950px){
     .noticias{
@@ -359,24 +390,11 @@ header{
 
 
 
-@media screen and (max-width:435px){
-    .hero{
-        width: fit-content;
-        height: fit-content;
-        h2{
-            font-size: 40px;
-        }
 
-        p{
-        font-size: 20px;
-        margin: auto;
-        }
-    }
-}
 
 
 //*mediaquerys-footer*//
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     footer{
         width: 100%;
         height: 50%;
@@ -388,9 +406,37 @@ header{
         .footer-contenedor{
             width: 100%;
             height: auto;
+            font-size: 12px;
+                        a{
+                            i{
+                                font-size: 25px;
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+        }
+        p{
+            font-size: 23px;
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    footer{
+        width: 100%;
+        height: 35%;
+        h1 .logo-pie{
+            width: 200px;
+            height: 150px;
+            margin: 0px 0px 1px;
+        }
+        .footer-contenedor{
+            width: 100%;
+            height: auto;
             font-size: 10px;
                         a{
-                            img{
+                            i{
+                                font-size: 22px;
                                 width: 30px;
                                 height: 30px;
                             }
@@ -401,8 +447,53 @@ header{
         }
     }
 }
+@media screen and (max-width:480px){
+    footer{
+        width: 100%;
+        height: 25%;
+        h1 .logo-pie{
+            width: 140px;
+            height: 100px;
+            margin: 0px 0px 1px;
+        }
+        .footer-contenedor{
+            width: 100%;
+            height: auto;
+            font-size: 8px;
+                        a{
+                            i{
+                                font-size: 18px;
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
 
 //*mediaquerys-historia*//
+
+@media screen and (max-width:830px){
+        .historia{
+                .titulo-historia{
+                font-size: 35px;    
+        }
+        .historia-comienzo{
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 20px;
+                text-align: justify;
+            }
+        
+        }
+    }
+}   
+
 @media screen and (max-width:640px){
     .historia{
         .subti{
@@ -447,103 +538,9 @@ header{
 }
 
 
-//*mediaquerys-luchadores*//
-// @media screen and (max-width:800px){
-//     .luchadores{
-//         .subti-luchadores{
-//         font-size: 25px;
-//         }
-//         .HHogan1{
-//             margin-top: 80px;
-//             margin-bottom: 20px;
-//         }
-//         .accordion{
 
-//             .accordion-item-one{
-
-//                 .accordion-header{
-
-//                     .botoncito-one{
-//                         width: 100px;
-//                         height: 60px;
-//                         font-size: 20px;
-//                         padding: 2px;
-//                     }
-//                 }
-//                 #collapseOne{
-
-//                     .accordion-body{
-
-//                         strong{
-//                             font-size: 20px;
-//                         }
-//                     }
-//                 }
-
-                
-//             }
-
-//         }
-
-
-//     }
-
-// }
-
-// @media screen and (max-width:800px){
-//     .luchadores{
-//         .savage1{
-//             margin-top: 80px;
-//             margin-bottom: 20px;
-//         }
-//         .accordion{
-    
-//             .accordion-item-two{
-    
-//                 .accordion-header{
-    
-//                     .botoncito-two{
-//                         width: 100px;
-//                         height: 60px;
-//                         font-size: 20px;
-//                         padding: 2px;
-//                     }
-//                 }
-//                 .div-savage{
-    
-//                     .accordion-body{
-    
-//                         strong{
-//                             font-size: 20px;
-//                         }
-//                     }
-//                 }
-    
-                
-//             }
-    
-//         }
-//     }
-// }
 
 //*mediaquerys-multimedia*//
-@media screen and (max-width:1120px){
-    .conjunto-canciones{
-        display: flex;
-        flex-wrap: wrap;
-        width: auto;
-        .canciones-uno{
-            display: flex;
-            flex-direction: column;
-        }
-        .canciones-dos{
-            display: flex;
-            flex-direction: column
-        }
-    }
-}
-
-
 
 @media screen and (max-width:1120px){
     .videos-contenedor{
@@ -553,25 +550,6 @@ header{
         
     }
 }
-
-
-@media screen and (max-width:830px){
-        .historia{
-                .titulo-historia{
-                font-size: 35px;    
-        }
-        .historia-comienzo{
-            h3{
-                font-size: 25px;
-            }
-            p{
-                font-size: 20px;
-                text-align: justify;
-            }
-        
-        }
-    }
-}   
 
 @media screen and (max-width:590px){
     .videos-contenedor{
@@ -672,6 +650,24 @@ header{
 }
 
 @media screen and (max-width:1120px){
+    .conjunto-canciones{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        .canciones-uno{
+            display: flex;
+            flex-direction: column;
+        }
+        .canciones-dos{
+            display: flex;
+            flex-direction: column
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1120px){
     .canciones-contenedor{
         h3{
             margin-bottom: 20px;
@@ -699,26 +695,6 @@ header{
 
 
 
-// @media screen and (max-width:1120px){
-//     .conjunto-canciones{
-//         display: flex;
-//         flex-wrap: wrap;
-//         width: auto;
-//     }
-//     .conjunto-canciones .canciones-uno{
-//         display: flex;
-//         flex-direction: column;
-        
-        
-//     }
-
-//     .conjunto-canciones .canciones-dos{
-//         display: flex;
-//         flex-direction: column
-//     }
-
-
-// }
 
 @media screen and (max-width:425px){
     .videos-contenedor{
@@ -862,7 +838,7 @@ header{
 
 @media screen and (max-width:670px){
     .gym{
- 
+
         h2{
             font-size: 30px;
 
@@ -900,22 +876,3 @@ header{
         }
     }
 }
-// @media screen and (max-width:670px){
-//     .productos .productos-contenedor {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     align-items: center;
-// }
-//     .gym .gym-contenedor div{
-//         display: flex;
-//         flex-wrap: wrap;
-//         justify-content: center;
-//         align-items: center;
-// }
-//     .gym div a{
-//         margin: auto;
-        
-//     }
-
-// }

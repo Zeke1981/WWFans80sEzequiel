@@ -14,29 +14,29 @@ $color-secundario: goldenrod;
 
 
 // //! operaciones
-// $ancho:220px;
-// $alto:170px;
+$ancho:220px;
+$alto:170px;
 
 
 
-// h1 img{
-//     width: $ancho - 20px;
-//     height: $alto - 30px;
-// }
+h1 img{
+    width: $ancho - 20px;
+    height: $alto - 30px;
+}
 
 
 // //! Extend
 
 // //* % Placeholder
 
-// %flex-resumen{
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
+%flex-resumen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-// header{
-//     background-color: grey;
-//     border: 1px solid fuchsia;
-//     @extend %flex-resumen;
-// }
+header{
+    background-color: grey;
+    border: 1px solid fuchsia;
+    @extend %flex-resumen;
+}
