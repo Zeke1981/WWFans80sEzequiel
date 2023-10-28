@@ -658,7 +658,7 @@ footer {
     flex-direction: column;
     position: static; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   header h1 .loguito {
     width: 200px;
     height: 150px;
